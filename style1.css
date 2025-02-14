@@ -26,3 +26,60 @@ h1{
 #benefit{
     text-align:left;
 }
+@media screen and (max-width: 1024px) {
+    body {
+        background-size: contain;
+        font-size: 18px;
+    }
+
+    h1, h2, h3 {
+        font-size: 22px;
+    }
+
+    .class, #benefit, #ul {
+        font-size: medium;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+        backdrop-filter: blur(6px);
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2, h3 {
+        font-size: 18px;
+    }
+
+    .class, #benefit, #ul {
+        font-size: small;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-position: center;
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h2, h3 {
+        font-size: 16px;
+    }
+
+    .class, #benefit, #ul {
+        font-size: smaller;
+        padding: 5px;
+    }
+}
