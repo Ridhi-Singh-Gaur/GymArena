@@ -1,0 +1,28 @@
+body{
+    background-image: url("g1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+h2{
+    color:blue;
+}
+h3{
+    color:blue;
+}
+#ul{
+    text-align:left;
+}
+.class{
+    text-align:left;
+    font-size: large;
+}
+h1{
+    color:white;
+}
+#benefit{
+    text-align:left;
+}
