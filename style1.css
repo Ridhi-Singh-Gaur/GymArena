@@ -30,36 +30,54 @@ h1{
     body {
         background-size: contain;
         font-size: 18px;
+        padding: 15px;
     }
 
-    h1, h2, h3 {
-        font-size: 22px;
+    h1 {
+        font-size: 24px;
     }
 
-    .class, #benefit, #ul {
-        font-size: medium;
-        text-align: center;
+    h2, h3 {
+        font-size: 20px;
+    }
+
+    #ul, .class, #benefit {
+        width: 90%;
+        margin: auto;
+        text-align: left;
+    }
+
+    pre {
+        white-space: normal;
     }
 }
 
 @media screen and (max-width: 768px) {
     body {
         background-size: cover;
-        backdrop-filter: blur(6px);
         padding: 10px;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 22px;
+        text-align: center;
     }
 
     h2, h3 {
         font-size: 18px;
     }
 
-    .class, #benefit, #ul {
-        font-size: small;
+    #ul, .class, #benefit {
+        width: 95%;
         text-align: left;
+    }
+
+    ul {
+        padding-left: 10px;
+    }
+
+    pre {
+        white-space: normal;
     }
 }
 
@@ -71,15 +89,26 @@ h1{
     }
 
     h1 {
-        font-size: 18px;
+        font-size: 20px;
+        text-align: center;
     }
 
     h2, h3 {
         font-size: 16px;
     }
 
-    .class, #benefit, #ul {
-        font-size: smaller;
+    #ul, .class, #benefit {
+        width: 100%;
         padding: 5px;
+        text-align: left;
+    }
+
+    ul {
+        padding-left: 5px;
+    }
+
+    pre {
+        white-space: normal;
     }
 }
+
